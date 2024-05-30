@@ -21,10 +21,10 @@ export const AppDataSource =  new DataSource({
 
 export const AppDataSource =  new DataSource({
     type: 'postgres',
-    host: 'roundhouse.proxy.rlwy.net',
+    host: 'viaduct.proxy.rlwy.net',
     username: 'postgres',
-    password: 'YWbkAIRLuaDwYbQlOqJYeaoVhFzshqtZ',
-    port: 30915,
+    password: 'WgpMYcjjBshkplTlMbiSWskuMoYspjds',
+    port: 46890,
     database: 'railway',
     entities: [User, Edificio, Area, Empleado, Vale],
     logging: true,
